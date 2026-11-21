@@ -5,7 +5,7 @@ slug: clausewire-contract-obligation-auditor
 protocol: generic
 name: ClauseWire Contract Obligation Auditor
 description: Reads a contract, extracts its obligations (who owes what by when), judges compliance, and cites verbatim clause wording as evidence, with honest Unclear handling when terms are missing. Every cited clause is verified to occur in the supplied contract before it is returned, so clause wording is never paraphrased or invented, and no obligation is reported as met or breached unless the clause supporting it was located in the text. Accepts the contract itself or a link to it (HTML or PDF).
-base_url: https://REPLACE-WITH-YOUR-DEPLOYED-HOST
+base_url: https://contractobligationaudit.onrender.com/
 
 auth:
   type: none
